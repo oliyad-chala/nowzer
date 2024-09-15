@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nowzer School</title>
+  <link rel="icon" href="cj/image/Favicon.ico" type="image/x-icon">
+ 
+  <link rel="stylesheet" href="cj/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  
+
+  <!-- Navigation -->
+  <nav>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li> <a href="staff.html">Our Staff</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <ul>
+      <li class="logo">
+       <a href="index.html"><img src="cj/image/Capture.ico" alt="Nowzer School"></a>
+        <span>Nowzer School</span>
+      </li>
+      <li><a class="hideOnMobile" href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+      <li class="hideOnMobile">
+        <a href="staff.html">Our Staff</a>
+       
+      </li>
+      <li class="hideOnMobile"><a href="gallery.html">Gallery</a></li>
+       </li>
+      <li class="hideOnMobile"><a href="contact.html">Contact Us</a></li>
+      <li class="menu-button" onclick="showSidebar()">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" style="fill: white;"></path>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container text-center">
+      <h1>Nowzer School</h1>
+      <p>Providing quality education since 20XX</p>
+      <button id="school-btn">OUR SCHOOL</button>
+    </div>
+  </header>
+  <!-- Main Content -->
+  <main>
+    <section id="home">
+      <div class="container">
+        <h2 class="section-heading">
+          <span class="icon"><i class="fas fa-school"></i></span>
+          Welcome to Nowzer School
+        </h2>
+        <h4 class="beautiful-heading">Nowzer School is a private School founded in July 2009 in Adama, Ethiopia; 90 Kms away to South East from Addis Ababa, the Capital City. The founder and principal, Mr. Paulos Gemechu, named the school after a visionary leader of the Macha Oromos during the 16th century. The School features exceptional setups and educational facilities. Its luxurious (20000 m<sup>2</sup>) beautiful school compound, Learning Management System (LMS) and laboratory demonstrations are some of its unique features. We have classes from pre-school KG to grade 12. Our enrollment capacity is now over 3000 students with 80 classrooms. The school also has two libraries and five laboratories. The classroom size is 25 for KGs and 35 for grade classrooms. We have over 120 well-experienced academic and 60 support staff. All our KG classrooms, offices, and labs are connected with wired and wireless networks to assist the learning and management processes.</h4>
+      </div>
+    </section>
+    
+    <section id="school">
+      <div class="container">
+        <h2 class="section-our-heading">
+          <span class="icon"><i class="fas fa-map"></i></span>
+          OUR SCHOOL
+        </h2>
+        <div id="video">
+          <video id="schoolVideo" controls autoplay muted loop src="cj/image/nowzer video.mp4"></video>
+          <div id="videoOverlay"></div>
+          <button id="playButton"></button>
+        </div>
+        <h1 class="school-map-heading">
+          <span class="icon"><i class="fas fa-map-marked-alt"></i></span>
+          Nowzer School Map
+        </h1>
+      </div>
+      <div id="map-container">
+        <div id="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.313689073286!2d39.26696737491103!3d8.565805296067687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b214931a72305%3A0xf5a7f0f91176726c!2sNowzer%20school%20plc!5e0!3m2!1sen!2set!4v1715518927823!5m2!1sen!2set" width="935" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+     
+    </main>
+  
+    <!-- Footer -->
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <img src="cj/image/Capture.ico" alt="Logo" class="logo">
+        <h3>Nowzer<span>School</span></h3>
+      
+        <p class="footer-links">
+          <a class="active" href="#home">Home</a>
+          |
+          <a href="about.html">About</a>
+          |
+          <a href="contact.html">Contact</a>
+          |
+          <a href="gallery.html">Gallery</a>
+        </p>
+      
+        <p class="footer-company-name">Copyright © 2024 <strong>Nowzer School</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+          <div>
+              <i class="fa fa-map-marker"></i>
+              <p><span>Adama</span>
+                  Atena Tera</p>
+          </div>
+
+          <div>
+              <i class="fa fa-phone"></i>
+              <p>+91 74**9**258</p>
+          </div>
+          <div>
+              <i class="fa fa-envelope"></i>
+              <p><a href="mailto:sagar00001.co@gmail.com">xyz@gmail.com</a></p>
+          </div>
+      </div>
+      <div class="footer-right">
+          <p class="footer-company-about">
+              <span>About the School</span>
+              <strong>Nowzer School</strong> Nowzer School is a private School founded in 
+              July 2009 in Adama, Ethiopia; 90 Kms away to South East from Addis Ababa, the 
+              Capital City. The founder and principal, Mr. Paulos Gemechu,
+               named the school after a visionary leader of the 
+              Macha Oromos during the 16th century. The School features exceptional setups and
+          </p>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100068704657020" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@schoolofnowzer4759" target="_blank"><i class="fa fa-youtube"></i></a>
+          </div>
+      </div>
+  </footer>
+  
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="cj/scripts.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.5.0/js/bootstrap.bundle.min.js"></script>
+<script>
+  function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+    
+  }
+  function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
+</script>
+  </body>
+  
+  </html>
